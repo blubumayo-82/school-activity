@@ -10,4 +10,3 @@ elif ("baha" in post_text or "rescue" in post_text) and "test" not in post_text 
 elif "luis" in post_text:
     print(action_state[1])
 
-

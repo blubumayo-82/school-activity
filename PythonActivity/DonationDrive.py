@@ -11,3 +11,4 @@ if transaction_log.endswith("2026"):
         print("Log Rejected: Invalid details or outdated transaction year.")
 else:
         print("Log Rejected: Invalid details or outdated transaction year.")
+        

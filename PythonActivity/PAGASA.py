@@ -1,3 +1,4 @@
+wind_speed = 165
 storm_id = input("The storm id is   ")
 
 if storm_id.startswith("BAGYONG"):
@@ -5,7 +6,7 @@ if storm_id.startswith("BAGYONG"):
 
     if wind_speed > 220:
         category = "Super Typhoon"
-    elif wind_speed > 118 and wind_speed <= 220:
+    elif 118 < wind_speed <= 220:
         category = "Typhoon"
     elif wind_speed <= 118:
         category = "Severe Tropical Storm"
